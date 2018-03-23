@@ -12,12 +12,6 @@ public class Hash {
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
 
         long startTime = System.nanoTime();
-
-
-
-
-
-
         File file = new File("C:\\Users\\Name\\Desktop\\New folder");
         File[] files = file.listFiles();
         ArrayList<String> hashes = new ArrayList<>();
@@ -33,8 +27,6 @@ public class Hash {
                 System.out.println(myMD5);
                 hashes.add(myMD5);
             }
-
-
         }
 
         for (String str : hashes) {
@@ -47,7 +39,6 @@ public class Hash {
         }
 
         long endTime = System.nanoTime();
-
         long duration = (endTime - startTime);
         System.out.println(duration);
 

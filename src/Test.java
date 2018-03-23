@@ -16,9 +16,6 @@ public class Test {
         for (int i = 0; i < Test.size.size(); i++) {
             System.out.println(Test.size.get(i));
         }
-
-
-
     }
 
     public static void listDir(File folder) {
@@ -34,14 +31,6 @@ public class Test {
                 System.out.println("FOLDER");
                 Test.fold++;
             }
-
-
         }
-
-
-
-
     }
-
-
 }
