@@ -42,9 +42,6 @@ public class Hash {
         long duration = (endTime - startTime);
         System.out.println(duration);
 
-
-
     }
-
 
 }
