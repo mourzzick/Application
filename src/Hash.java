@@ -18,7 +18,7 @@ public class Hash {
 
 
 
-        File file = new File("C:\\Users\\Ruslan\\Desktop\\New folder");
+        File file = new File("C:\\Users\\Name\\Desktop\\New folder");
         File[] files = file.listFiles();
         ArrayList<String> hashes = new ArrayList<>();
         ArrayList<String> notDupHashes = new ArrayList<>();
